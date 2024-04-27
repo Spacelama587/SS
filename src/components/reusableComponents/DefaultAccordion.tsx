@@ -31,7 +31,7 @@ export function DefaultAccordion() {
         {/* Accordion Header with click handler and hover styles */}
         <AccordionHeader
             className="text-white hover:bg-slate-100 hover:text-black cursor-pointer py-2 px-4"
-            onClick={() => handleOpen(1)} children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
+            onClick={() => handleOpen(1)}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
           What is Material Tailwind?
         </AccordionHeader>
         <AccordionBody className="text-white">
@@ -39,10 +39,10 @@ export function DefaultAccordion() {
           growing. We're constantly making mistakes. We're constantly trying to
           express ourselves and actualize our dreams.
         </AccordionBody>
-        <Accordion open={open === 2} children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Accordion open={open === 2}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           <AccordionHeader
               className="text-white hover:bg-slate-100 hover:text-black cursor-pointer py-2 px-4"
-              onClick={() => handleOpen(2)} children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
+              onClick={() => handleOpen(2)} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             How to use Material Tailwind?
           </AccordionHeader>
           <AccordionBody className="text-white">
@@ -51,10 +51,10 @@ export function DefaultAccordion() {
             express ourselves and actualize our dreams.
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 3} children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Accordion open={open === 3} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           <AccordionHeader
               className="text-white hover:bg-slate-100 hover:text-black cursor-pointer py-2 px-4"
-              onClick={() => handleOpen(3)} children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
+              onClick={() => handleOpen(3)}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             What can I do with Material Tailwind?
           </AccordionHeader>
           <AccordionBody className="text-white">
@@ -63,10 +63,10 @@ export function DefaultAccordion() {
             express ourselves and actualize our dreams.
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 4} children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Accordion open={open === 4} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           <AccordionHeader
               className="text-white hover:bg-slate-100 hover:text-black cursor-pointer py-2 px-4"
-              onClick={() => handleOpen(4)} children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
+              onClick={() => handleOpen(4)}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             What can I do with Material Tailwind?
           </AccordionHeader>
           <AccordionBody className="text-white">
@@ -75,10 +75,10 @@ export function DefaultAccordion() {
             express ourselves and actualize our dreams.
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 5} children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Accordion open={open === 5} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           <AccordionHeader
               className="text-white hover:bg-slate-100 hover:text-black cursor-pointer py-2 px-4"
-              onClick={() => handleOpen(5)} children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
+              onClick={() => handleOpen(5)}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             What can I do with Material Tailwind?
           </AccordionHeader>
           <AccordionBody className="text-white">

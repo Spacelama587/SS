@@ -27,7 +27,7 @@ export function DefaultAccordion() {
     <div className="p-2 mt-12 border bg-gray-50 rounded-3xl">
     
       <Accordion open={open === 1}
-        className="w-full bg-gradient-to-r from-gray-700 to-black p-4 rounded-md shadow-md" children={undefined} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
+        className="w-full bg-gradient-to-r from-gray-700 to-black p-4 rounded-md shadow-md" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
         {/* Accordion Header with click handler and hover styles */}
         <AccordionHeader
             className="text-white hover:bg-slate-100 hover:text-black cursor-pointer py-2 px-4"

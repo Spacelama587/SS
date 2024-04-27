@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Footer() {
   return (
@@ -61,7 +61,7 @@ function Footer() {
                     <form className="w-full max-w-sm ml-auto">
                       <div className="flex flex-col w-full gap-2 lg:flex-row">
                         <label htmlFor="email-address" className="sr-only">Email address</label>
-                        <input name="email" id="email-address" type="email" autoComplete="email" placeholder="Enter your email" aria-describedby="emailHelp" required="" className="block w-full h-12 px-4 py-2 duration-200 border rounded-lg appearance-none bg-chalk border-zinc-300 text-accent-500 placeholder-zinc-300 focus:border-zinc-300 focus:outline-none focus:ring-zinc-300 sm:text-sm"/>
+                        <input name="email" id="email-address" type="email" autoComplete="email" placeholder="Enter your email" aria-describedby="emailHelp" required className="block w-full h-12 px-4 py-2 duration-200 border rounded-lg appearance-none bg-chalk border-zinc-300 text-accent-500 placeholder-zinc-300 focus:border-zinc-300 focus:outline-none focus:ring-zinc-300 sm:text-sm"/>
                         <span id="emailHelp" className="sr-only">Please enter your email address to subscribe.</span>
                         <button type="submit" aria-label="Primary action" className="inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 font-medium text-white duration-200 bg-gray-900 md:w-auto rounded-xl hover:bg-gray-700 focus:ring-2 focus:ring-offset-2 focus:ring-black">
                           Subscribe

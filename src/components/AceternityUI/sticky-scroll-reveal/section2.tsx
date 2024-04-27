@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { StickyScroll } from "./sticky-scroll-reveal";
 import { Cpu, Graph, Package, TreeStructure } from "@phosphor-icons/react";
 

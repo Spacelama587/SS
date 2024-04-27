@@ -23,7 +23,7 @@ export const Radar = ({ className }: any) => {
         <div className="relative z-40 h-[1px] w-full bg-gradient-to-r from-transparent  via-sky-600 to-transparent" />
       </div>
       {/* concentric circles */}
-      {circles.map((circle, idx) => (
+      {circles.map((_circle, idx) => (
         <Circle
           style={{
             height: `${(idx + 1) * 5}rem`,

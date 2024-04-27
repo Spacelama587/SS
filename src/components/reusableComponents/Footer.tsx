@@ -1,3 +1,4 @@
+import { CodesandboxLogo } from "@phosphor-icons/react"
 
 
 function Footer() {
@@ -8,11 +9,11 @@ function Footer() {
                 <div className="px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl">
                   <div className="w-full xl:grid xl:grid-cols-3 xl:gap-8">
                     <div>
-                      <p className="text-2xl font-bold uppercase">windstatic</p>
+                      <p className="text-2xl font-bold uppercase array"><CodesandboxLogo size={32}/> Structural Studios</p>
                       <p className="mt-2 text-sm font-medium text-gray-500 lg:ml-ato">
-                        A set of <em className="text-accent-600"></em> elements, templates &amp;
-                        layouts
-                        <span className="lg:block"> made with Tailwind CSS and Alpine.js</span>
+                      Showcase  <em className="text-accent-600"></em> your software automates &amp;
+                        saves time
+                        <span className="lg:block"> made with Tensorflow js ML and Data Points</span>
                       </p>
                     </div>
                     <div className="grid grid-cols-2 gap-8 mt-12 text-sm font-medium text-gray-500 lg:grid-cols-3 lg:mt-0 xl:col-span-2">
@@ -30,23 +31,23 @@ function Footer() {
                         <h3 className="text-base text-black">Socials</h3>
                         <ul role="list" className="mt-4 space-y-2">
                           <li>
-                            <a href="https://twitter.com/lexingtonthemes" className="hover:text-black">
-                              @lexingtonthemes
+                            <a href="#" className="hover:text-black">
+                              @Structural Studios
                             </a>
                           </li>
                           <li>
-                            <a href="https://twitter.com/Mike_Andreuzza" className="hover:text-black">
-                              @Mike_Andreuzza
+                            <a href="#" className="hover:text-black">
+                              @Mike_StructuralStudios
                             </a>
                           </li>
                         </ul>
                       </div>
                       <div className="mt-12 md:mt-0">
-                        <h3 className="text-base text-black">Premium Themes</h3>
+                        <h3 className="text-base text-black">Computer Vision Integration</h3>
                         <ul role="list" className="mt-4 space-y-2">
                           <li>
-                            <a href="https://lexingtonthemes.com/" className="hover:text-black">
-                              Lexington Themes
+                            <a href="#" className="hover:text-black">
+                              Structiral Studios
                             </a>
                           </li>
                         </ul>
@@ -55,8 +56,7 @@ function Footer() {
                   </div>
                   <div className="flex flex-col pt-12 mt-12 border-t md:flex-row md:items-center md:justify-between">
                     <span className="text-sm font-medium text-gray-500 text-balance">
-                      Beautifully designed HTML, Astro.js and Tailwind themes! Save months of
-                      time and build your startup landing page in minutes.
+                    Emphasize the intuitive and user-friendly interface of your software, making it easy for users to navigate and utilize its features.
                     </span>
                     <form className="w-full max-w-sm ml-auto">
                       <div className="flex flex-col w-full gap-2 lg:flex-row">
